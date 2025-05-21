@@ -1,39 +1,55 @@
-The Tourist Guide application is a comprehensive iOS app designed to help users discover, navigate to, and
-interact with tourist attractions in various cities. The app allows users to search for places by city and state, view
-details about attractions, save favorites, add reviews, get directions, and even add their own places of interest to
-share with others.
-Features Completed
-1. User Authentication and Profile Management
-• User registration and login functionality
-• User profile creation and management
-• Profile image upload and storage
-• User settings for location and notification preferences
-2. Tourist Place Discovery
-• Search for tourist attractions by city and state
-• Integration with MapKit for fetching real tourist attractions
-• Viewing user-contributed places
-• Featured/popular destinations on the home screen (Example: Newyork, Las Vegas etc...)
-3. Place Details and Interaction
-• Detailed view of each tourist attraction
-• Rating system for places
-• Review and comment system for places
-• Ability to mark places as favorites
-• Image display for each location
-4. Navigation and Directions
-• Get directions to attractions using MapKit
-• Multiple transportation options with time and cost estimates
-• Interactive maps for route visualization
-• Current location detection
-5. User Contributions
-• Add new places to the database
-• Upload images for user-added places
-• Write reviews and rate attractions
-6. Data Persistence(temporay)
-• Save user profiles and preferences
-• Store favorites and user-contributed data
-• Local image storage
-7. UI/UX Features
-• Animated elements for visual appeal
-• User-friendly interface with intuitive navigation
-• Visual feedback system ( alerts)
-• Loading indicators for network operations
+# Tourist Guide - iOS Travel App
+
+A comprehensive iOS travel companion application that helps users discover and navigate to popular tourist destinations, share their experiences, and create personalized travel memories.
+
+## Features
+
+### Discovery & Exploration
+- Search for tourist attractions by city and state
+- Browse popular destinations with visual previews
+- View detailed information about each tourist spot
+- Access user reviews and ratings for informed decisions
+
+### User Contributions
+- Add new places to expand the database for other travelers
+- Write reviews and rate visited locations to help fellow travelers
+- Upload photos to showcase your travel experiences
+
+### Navigation & Planning
+- Get directions to tourist attractions with multiple transportation options
+- View estimated travel times and costs for different modes of transport
+- See distance calculations and recommended routes
+
+### Personalization
+- Create and manage your traveler profile
+- Save favorite destinations for quick access
+- Track places you've visited and added to the community
+- Customize app preferences for notifications and location services
+
+## Technical Implementation
+- Built with UIKit and native iOS components
+- MapKit integration for location services and directions
+- Local data persistence with UserDefaults
+- Custom UI with animations and visual feedback
+- Comprehensive error handling and user feedback systems
+
+## App Preview
+(https://drive.google.com/file/d/1Huu61hpi--zbbyeD73Omx-bgSNIKTySK/view?usp=sharing)
+
+
+## Requirements
+- iOS 14.0 or later
+- Swift 5.0+
+- Xcode 13.0+
+
+## Installation
+1. Clone the repository
+2. Open the project in Xcode
+3. Build and run on your iOS device or simulator
+
+## Future Enhancements
+- Weather integration for destination planning
+- Social sharing features
+- Trip itinerary creation
+- Offline map support
+- AR features for immersive exploration
